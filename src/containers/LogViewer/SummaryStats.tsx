@@ -3,6 +3,7 @@ import { Card, Group, SimpleGrid, Stack, Text, Title, Box, Badge } from "@mantin
 import { formatCount } from "@/lib/formatters";
 import { severityColors, severityLabels, severityOrder } from "@/lib/severity";
 import type { SummaryStats } from "@/lib/types";
+import styles from "./SummartStats.module.css";
 
 type SummaryStatsProps = {
   stats: SummaryStats;
@@ -13,7 +14,7 @@ export function SummaryStats({ stats }: SummaryStatsProps) {
 
   return (
     <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }}>
-      <Card withBorder radius="lg" p="md" orientation="horizontal">
+      <Card withBorder radius="lg" p="md" orientation="horizontal" className={styles.summaryCard}>
         <Box mr={16}>
           <Text c="dimmed" size="sm">
             Logs
