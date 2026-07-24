@@ -1,0 +1,8 @@
+.table {
+  font-size: var(--mantine-font-size-sm);
+}
+
+.keyCell {
+  width: 14rem;
+  vertical-align: top;
+}

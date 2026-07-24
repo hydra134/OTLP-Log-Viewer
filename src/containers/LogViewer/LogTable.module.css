@@ -1,0 +1,37 @@
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.expandColumn {
+  width: 3rem;
+}
+
+.severityColumn {
+  width: 7.5rem;
+}
+
+.timeColumn {
+  width: 8rem;
+}
+
+.resourceColumn {
+  width: 16rem;
+}
+
+.bodyText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detailsCell {
+  padding: 0;
+  background: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-7));
+}
+
+.bodyDetails {
+  max-width: 100%;
+  margin: 0;
+  overflow-x: auto;
+}

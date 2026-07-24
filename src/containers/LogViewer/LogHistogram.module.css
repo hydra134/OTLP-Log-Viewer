@@ -1,0 +1,9 @@
+.chartFrame {
+  width: 100%;
+  min-width: 16rem;
+  height: 15rem;
+}
+
+.chartContainer {
+  min-height: 15rem;
+}
